@@ -63,9 +63,10 @@ const sessionOptions = {
   },
 };
 
-// app.get("/", (req,res)=>{
-//     res.send("Root is working");
-// })
+app.get("/", (req, res) => {
+    res.redirect("/listings");
+});
+
 
 //AUTHENTICATION
 app.use(session(sessionOptions));
