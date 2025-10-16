@@ -1,0 +1,7 @@
+ image : {
+        type : String,
+        set : (v) === "" ? "default link" : v,
+    },
+(set : (v) => v === "" ? "default link" : v) ==> iss set ki madad se hum apne image ke liye ek default value set kerte hai.....set ka matlab hai apne image field ki value ko set kerna hai (v)==yeh hmare image ki value hai......kul milake mtlb yeh hai ki... hum line se yeh dekheneg ki kya v ki value ek empty string hai yaani user ne koi image input nahi ki aur ager nahi ki tho v ki value ek empty string hai aur uss empty string ke badle hum ek link assign kerdenverna (v) hi rahega joki original value hogi joki user ne di hogi
+
+abb hum ek package ka istemaal karenge ejsmate joki same nav bar ya footer ko baar baar pages redirect kerne per bhi nahi badlata hai........basically ek boilerplate code(aisa code jo her jagah exist kerta hai )
