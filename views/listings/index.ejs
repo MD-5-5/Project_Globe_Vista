@@ -100,20 +100,14 @@
       }
     }
   });
-  // --- Smooth Scroll for Explore Button ---
 
-  // 1. Select the button
   const exploreButton = document.querySelector(".explore-btn");
 
-  // 2. Add an event listener for when it's clicked
   exploreButton.addEventListener("click", function (event) {
-    // 3. Prevent the default instant jump
     event.preventDefault();
 
-    // 4. Find the target section
     const targetSection = document.querySelector("#main-content");
 
-    // 5. Tell the browser to smoothly scroll to that section
     targetSection.scrollIntoView({
       behavior: "smooth",
     });
